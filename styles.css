@@ -1,0 +1,49 @@
+/* styles.css */
+body {
+    padding-top: 56px; 
+    font-family: Arial, sans-serif;
+  }
+  .custom-navbar {
+    background-color: #0060AA; /* Custom color */
+  }
+  
+  .hero-section {
+    height: 50vh;
+    background: url('watch.jpg') no-repeat center center/cover;
+  }
+  
+  .hero-section .text-center {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+  }
+  
+  #brands img {
+    max-height: 50px;
+    margin: 0 15px;
+  }
+  
+  
+.custom-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: none;
+  }
+  
+  .custom-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .custom-card-img {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  footer {
+    background-color: #0060AA;
+  }
+  
+  footer a {
+    color: #fff;
+    font-size: 1.2rem;
+  }
